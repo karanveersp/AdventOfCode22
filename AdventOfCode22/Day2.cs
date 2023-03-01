@@ -64,7 +64,7 @@ public static class Day2
 
     public static void Play()
     {
-        var lines = Util.GetDataLines("Day2.txt");
+        var lines = Util.GetDataLines(2);
         int myScore = lines
             .Select(line =>
             {
@@ -87,7 +87,7 @@ public static class Day2
 
     public static void PlayPart2()
     {
-        var lines = Util.GetDataLines("Day2.txt");
+        var lines = Util.GetDataLines(2);
         int myScore = lines
             .Select(line =>
             {

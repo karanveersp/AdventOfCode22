@@ -8,7 +8,7 @@ public static class Day1
 
     private static IEnumerable<ElfCarrier> ParseCarriers()
     {
-        var lines = Util.GetDataLines("Day1.txt");
+        var lines = Util.GetDataLines(1);
         int count = 0;
         int id = 0;
         var carriers = new List<ElfCarrier>();
@@ -54,7 +54,7 @@ public static class Day1
 
     public static void PrintMaxCarrierCalories()
     {
-        var carriers = ParseCarriersRecursive(Util.GetDataLines("Day1.txt"));
+        var carriers = ParseCarriersRecursive(Util.GetDataLines(1));
         var res = carriers.MaxBy(carrier => carrier.Calories);
         if (res == null)
         {
@@ -65,7 +65,7 @@ public static class Day1
 
     public static void PrintTopThreeCarriersTotal()
     {
-        var carriers = ParseCarriersRecursive(Util.GetDataLines("Day1.txt"));
+        var carriers = ParseCarriersRecursive(Util.GetDataLines(1));
         var res = carriers
                   .OrderByDescending(carrier => carrier.Calories)
                   .Take(3)
