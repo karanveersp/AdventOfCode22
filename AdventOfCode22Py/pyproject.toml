@@ -1,0 +1,12 @@
+[tool.pdm]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "karanveersp", email = "karan_4496@hotmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+license = {text = "MIT"}

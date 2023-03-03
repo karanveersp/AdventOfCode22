@@ -3,3 +3,5 @@ obj/
 .vscode/
 AdventOfCode22Go/
 .vs/
+.fake
+*.pyc
