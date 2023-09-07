@@ -1,12 +1,10 @@
 [tool.pdm]
 
 [project]
-name = ""
-version = ""
+name = "AdventOfCodePy"
+version = "1"
 description = ""
-authors = [
-    {name = "karanveersp", email = "karan_4496@hotmail.com"},
-]
+authors = [{ name = "karanveersp", email = "karanv41@proton.me" }]
 dependencies = []
 requires-python = ">=3.11"
-license = {text = "MIT"}
+license = { text = "MIT" }

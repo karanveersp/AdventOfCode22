@@ -1,7 +1,8 @@
 bin/
 obj/
 .vscode/
-AdventOfCode22Go/
 .vs/
 .fake
 *.pyc
+*.egg-info
+.pytest_cache
